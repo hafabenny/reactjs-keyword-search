@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const ROOT_URL = `http://api-qa.healthline.com:8080/core/imuid/search?partnerId=31a86f67-b1b6-4fd7-8b98-8caeee8d3078&rows=9999`;
+const ROOT_URL = ``;
 
 
 // want to share CONSTANT with other components, actions, reducers
