@@ -4,7 +4,7 @@ const ROOT_URL = ``;
 
 
 // want to share CONSTANT with other components, actions, reducers
-export const FETCH_WEATHER = 'FETCH_WEATHER';
+export const FETCH_IMUIDS = 'FETCH_IMUIDS';
 
 // make an API request to fetch weather data
 export function fetchWeather(searchTerm) {
@@ -20,7 +20,7 @@ export function fetchWeather(searchTerm) {
 	console.log('Request: ', request);
 
 	return {
-		type: FETCH_WEATHER,
+		type: FETCH_IMUIDS,
 		payload: request
 	}
 }

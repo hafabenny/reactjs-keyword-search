@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { fetchWeather } from '../actions/index';
+import { fetchImuid } from '../actions/index';
 
 
 class SearchBar extends Component {
@@ -58,7 +58,7 @@ class SearchBar extends Component {
 }
 
 function mapDispatchToProps(dispatch) {
-	return bindActionCreators({ fetchWeather }, dispatch);
+	return bindActionCreators({ fetchImuid }, dispatch);
 }
 
 // mapDispatchToProps must be second argument and this component doesn't care about state

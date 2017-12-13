@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
-import WeatherReducer from './reducer_weather';
+import ImuidReducer from './reducer_imuid';
 
 // const rootReducer = combineReducers({
 //   state: (state = {}) => state
 // });
 
 const rootReducer = combineReducers({
-	weather: WeatherReducer
+	imuid: ImuidReducer
 });
 
 export default rootReducer;
