@@ -7,7 +7,7 @@ const ROOT_URL = ``;
 export const FETCH_IMUIDS = 'FETCH_IMUIDS';
 
 // make an API request to fetch weather data
-export function fetchWeather(searchTerm) {
+export function fetchImuid(searchTerm) {
 
 	const url = `${ROOT_URL}&searchTerm=${searchTerm}`;
 

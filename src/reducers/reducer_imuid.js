@@ -1,4 +1,4 @@
-import { FETCH_IMUID } from '../actions/index';
+import { FETCH_IMUIDS } from '../actions/index';
 
 // data structure for state is a list
 // the user can see weather forecast data for multiple cities
@@ -27,7 +27,7 @@ export default function(state = [], action) {
 	// 		return state.concat([ action.payload.data ])
 	// 		return [ action.payload.data, ...state ]
 	switch (action.type) {
-	case FETCH_IMUID:
+	case FETCH_IMUIDS:
 		return action.payload.data.data
 	}
 
