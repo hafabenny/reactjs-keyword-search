@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// add your API endpoint here
 const ROOT_URL = ``;
 
 
@@ -17,7 +18,7 @@ export function fetchImuid(searchTerm) {
 
 	// helps show workflow of action creator, actions and middleware
 	// with async promises
-	console.log('Request: ', request);
+	//console.log('Request: ', request);
 
 	return {
 		type: FETCH_IMUIDS,

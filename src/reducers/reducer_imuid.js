@@ -10,7 +10,7 @@ export default function(state = [], action) {
 
 	// helps show workflow of action creator, actions and middleware
 	// with async promises
-	console.log('action received', action);
+	//console.log('action received', action);
 
 
 	// super important: do not manipulate state
